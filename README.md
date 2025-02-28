@@ -2,6 +2,12 @@
 
 A decentralized peer-to-peer (P2P) help request platform leveraging **Hypcore** and **Hyposwarm** for secure, real-time communication. This platform enables users to send and receive emergency requests without relying on central servers, ensuring speed, reliability, and privacy.
 
+## UI
+![Screenshot 2025-03-01 000846](https://github.com/user-attachments/assets/0c059d2b-2a74-4f23-8b18-b64edf9e21e8)
+
+![image](https://github.com/user-attachments/assets/3cc400c8-1d33-47bb-93a7-35468beebc82)
+
+
 ## Features
 - 🔄 **Decentralized Communication**: Uses Hypcore and Hyposwarm for real-time, peer-to-peer messaging.
 - ⚡ **Fast & Reliable**: Messages are relayed quickly without bottlenecks.
