@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help Request App</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Help Request Form</h1>
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter your name">
+        </div>
+        <div class="form-group">
+            <label for="location">Location:</label>
+            <input type="text" id="location" placeholder="Enter your location">
+        </div>
+        <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" placeholder="Enter your request"></textarea>
+        </div>
+        <button onclick="sendRequest()">Send Request</button>
+
+        <h2>Help Requests</h2>
+        <ul id="request-list"></ul>
+
+        <div id="debug-log">
+            <strong>Debug Log:</strong>
+            <p id="log-content">No logs yet...</p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

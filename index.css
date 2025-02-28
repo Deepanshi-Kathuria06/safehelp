@@ -1,0 +1,118 @@
+/* Improved Dark UI with Smaller Text */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 500px;
+    background: #1e1e1e;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+    text-align: center;
+}
+
+/* Headings */
+h1, h2 {
+    font-size: 16px; /* Reduced size */
+    color: #ff7e5f;
+    margin-bottom: 12px;
+}
+
+/* Form Groups */
+.form-group {
+    margin-bottom: 12px;
+    text-align: left;
+}
+
+/* Labels */
+label {
+    font-size: 12px; /* Smaller font */
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #cccccc;
+}
+
+/* Input & Textarea */
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px; /* Reduced font size */
+    margin-top: 5px;
+    border: none;
+    border-radius: 8px;
+    background: #2c2c2c;
+    color: white;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Focus Effects */
+input:focus, textarea:focus {
+    background: #333;
+    border: 1px solid #ff7e5f;
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 10px;
+    background: #ff7e5f;
+    color: white;
+    border: none;
+    font-size: 14px; /* Reduced button text size */
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #ff5733;
+}
+
+/* List Styling */
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+/* List Items */
+li {
+    background: #2c2c2c;
+    padding: 10px;
+    margin: 8px 0;
+    border-left: 4px solid #ff7e5f;
+    border-radius: 8px;
+    font-size: 12px; /* Reduced text size */
+    text-align: left;
+    box-shadow: 0px 4px 6px rgba(255, 255, 255, 0.1);
+}
+
+/* Names Styling */
+li strong {
+    font-size: 14px; /* Slightly larger than other text */
+    color: #ff7e5f;
+}
+
+/* Debug Log */
+#debug-log {
+    background: #1e1e1e;
+    padding: 8px;
+    margin-top: 15px;
+    font-size: 10px; /* Smallest text */
+    color: #aaaaaa;
+    border-radius: 8px;
+}

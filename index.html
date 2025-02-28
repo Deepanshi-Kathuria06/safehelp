@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Helping Hand</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(to right, #913821, #ff7e5f);
+        }
+        .container {
+            text-align: center;
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+            width: 80%;
+            max-width: 500px;
+        }
+        h1 {
+            font-size: 26px;
+            color: #222;
+            margin-bottom: 25px;
+        }
+        p {
+            font-size: 16px;
+            color: #555;
+            margin-bottom: 20px;
+        }
+        button {
+            background-color: #ff7e5f;
+            color: white;
+            border: none;
+            padding: 15px 35px;
+            font-size: 18px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background 0.3s ease, transform 0.2s ease;
+        }
+        button:hover {
+            background-color:#913821;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>"Helping one person might not change the world, but it could change the world for one person."</h1>
+        <p>Join our initiative to offer or receive support and make a difference.</p>
+        <button onclick="redirectToForm()">Get Help / Offer Help</button>
+    </div>
+    
+    <script>
+        function redirectToForm() {
+            window.location.href = "form.html";
+        }
+    </script>
+</body>
+</html>

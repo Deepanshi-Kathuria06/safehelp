@@ -1,0 +1,33 @@
+{
+  "name": "sos",
+  "main": "index.html",
+  "pear": {
+    "name": "sos",
+    "type": "desktop",
+    "gui": {
+      "backgroundColor": "#1F2430",
+      "height": "540",
+      "width": "720"
+    }
+  },
+  "type": "module",
+  "license": "Apache-2.0",
+  "scripts": {
+    "dev": "pear run -d .",
+    "test": "brittle test/*.test.js"
+  },
+  "devDependencies": {
+    "brittle": "^3.0.0",
+    "pear-interface": "^1.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.8.1",
+    "b4a": "^1.6.7",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "firebase": "^11.4.0",
+    "hypercore": "^10.38.2",
+    "hypercore-crypto": "^3.5.0",
+    "hyperswarm": "^4.8.4"
+  }
+}
